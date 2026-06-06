@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 95vw; 
+    height: 90vh;
+    border-radius: 48px;
+    overflow: hidden;
+    object-fit: cover; 
+}
+.back{
+    display: flex;
+    width: 100vw; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+   
+}
+.player{
+bottom: 91px;
+left: 83px;
+width: 30vw;
+height: 21vh;
+background: rgba(255, 255, 255, 0.43);
+border-radius: 43px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+position: absolute;
+}
+
